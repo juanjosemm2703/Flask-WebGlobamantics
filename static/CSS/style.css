@@ -1,0 +1,36 @@
+body{
+    padding-top: 56px;
+}
+.navbar {
+    padding-left: 0rem;
+}
+.navbar-brand {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    align-items: left;
+}
+.container{
+    max-width: 2000px;
+    padding-left: 2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+
+}
+.card-img-top {
+    object-fit: cover;
+}
+a:hover{
+    text-decoration: none;
+}
+textarea {
+    resize: none;
+}
+.delete-form{
+display: inline
+}
+.comment-error{
+    color:red;
+}
+#content:invalid{
+    box-shadow: none;
+}
